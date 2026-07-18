@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Host: resumefire.github.io
+Sitemap: https://resumefire.github.io/sitemap.xml

@@ -1,0 +1,19 @@
+{
+  "name": "resumefire-github-io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static SEO website for Resume Fire Bot.",
+  "scripts": {
+    "lint": "eslint scripts.js",
+    "build:css": "lightningcss styles.css -o styles.min.css --minify && lightningcss seo-cluster.css -o seo-cluster.min.css --minify",
+    "build:js": "esbuild scripts.js --minify --outfile=scripts.min.js",
+    "build": "npm run lint && npm run build:css && npm run build:js",
+    "check": "npm run build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "esbuild": "^0.25.8",
+    "eslint": "^9.31.0",
+    "lightningcss-cli": "^1.29.2"
+  }
+}

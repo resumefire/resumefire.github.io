@@ -1,0 +1,19 @@
+# Resume Fire
+
+Resume Fire Bot is a Telegram bot for Human + ATS analysis of PDF resumes.
+
+## Pages
+
+- https://resumefire.github.io/ - check a PDF resume online and open the Telegram bot.
+- https://resumefire.github.io/human-ats-razbor-rezyume.html - methodology: why Human and ATS checks are separate.
+- https://resumefire.github.io/proverit-rezyume-pered-otklikom.html - practical checklist before sending a resume.
+
+## Product facts
+
+- The bot provides a free preview before any full report purchase.
+- It checks human readability and PDF/ATS parsing readiness.
+- It does not guarantee employment, infer protected personal characteristics, or invent achievements.
+
+## Primary action
+
+https://t.me/ResumeFireBot?start=github-repo
