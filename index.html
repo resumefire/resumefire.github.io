@@ -27,7 +27,7 @@
   <script type="application/ld+json">
   {"@context":"https://schema.org","@graph":[
     {"@type":"WebSite","@id":"https://resumefire.github.io/#website","url":"https://resumefire.github.io/","name":"Resume Fire","inLanguage":"ru-RU"},
-    {"@type":"SoftwareApplication","@id":"https://resumefire.github.io/#app","name":"Resume Fire Bot","applicationCategory":"BusinessApplication","operatingSystem":"Telegram","description":"Telegram-бот для Human + ATS-анализа PDF-резюме с бесплатным превью рекомендаций.","url":"https://t.me/ResumeFireBot?start=github-repo","offers":{"@type":"Offer","price":"0","priceCurrency":"RUB","description":"Бесплатное превью"}},
+    {"@type":"SoftwareApplication","@id":"https://resumefire.github.io/#app","name":"Resume Fire Bot","applicationCategory":"BusinessApplication","operatingSystem":"Telegram","description":"Telegram-бот для Human + ATS-анализа PDF-резюме с бесплатным превью рекомендаций.","url":"https://t.me/ResumeFireBot?start=github-repo","creator":{"@type":"Person","name":"Богдан Топоров","url":"https://resumefire.github.io/about.html"},"offers":{"@type":"Offer","price":"0","priceCurrency":"RUB","description":"Бесплатное превью"}},
     {"@type":"FAQPage","mainEntity":[
       {"@type":"Question","name":"Можно ли проверить резюме бесплатно?","acceptedAnswer":{"@type":"Answer","text":"Да. Resume Fire показывает бесплатное превью с несколькими найденными проблемами до покупки полного отчёта."}},
       {"@type":"Question","name":"Что проверяет ATS-анализ резюме?","acceptedAnswer":{"@type":"Answer","text":"Читаемость PDF, структуру разделов, даты, должности, навыки и наличие важной информации только в изображениях."}},
@@ -42,7 +42,7 @@
     <a class="brand" href="#top" aria-label="Resume Fire, в начало страницы"><span class="brand-flame">R</span><span>resume<span>fire</span></span></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Меню</button>
     <nav class="nav" id="main-nav" aria-label="Основная навигация">
-      <a href="#how">Как работает</a><a href="#report">Что внутри</a><a href="#faq">Вопросы</a>
+      <a href="#how">Как работает</a><a href="#report">Что внутри</a><a href="primer-otcheta-po-rezyume.html">Пример</a><a href="about.html">О проекте</a><a href="#faq">Вопросы</a>
       <a class="nav-cta" href="https://t.me/ResumeFireBot?start=github-repo" target="_blank" rel="noopener">Открыть бот</a>
     </nav>
   </header>
@@ -111,6 +111,19 @@
       </div>
     </section>
 
+    <section class="section trust-section" aria-labelledby="trust-title">
+      <div class="trust-copy">
+        <p class="kicker">Проверяемые детали</p>
+        <h2 id="trust-title">Посмотрите, кто и как делает сервис.</h2>
+        <p>Открыто показываем пример результата, автора проекта, границы анализа и порядок обработки PDF.</p>
+      </div>
+      <div class="trust-links">
+        <a class="trust-link" href="primer-otcheta-po-rezyume.html"><span>Реальный формат</span><strong>Обезличенный пример полного Human + ATS-отчёта</strong></a>
+        <a class="trust-link" href="about.html"><span>Автор и метод</span><strong>О проекте Resume Fire</strong></a>
+        <a class="trust-link" href="privacy.html"><span>Ваши данные</span><strong>Конфиденциальность</strong></a>
+      </div>
+    </section>
+
     <section class="section faq" id="faq">
       <p class="kicker reveal">Вопросы</p><h2 class="reveal">Перед проверкой</h2>
       <div class="faq-list">
@@ -126,7 +139,7 @@
     </section>
   </main>
 
-  <footer><a class="brand" href="#top"><span class="brand-flame">R</span><span>resume<span>fire</span></span></a><p>Human + ATS-разбор PDF-резюме в Telegram.</p><a href="human-ats-razbor-rezyume.html">Методология</a></footer>
+  <footer class="site-footer"><a class="brand" href="#top"><span class="brand-flame">R</span><span>resume<span>fire</span></span></a><p>Human + ATS-разбор PDF-резюме в Telegram.</p><nav class="footer-links" aria-label="О проекте"><a href="human-ats-razbor-rezyume.html">Методология</a><a href="primer-otcheta-po-rezyume.html">Пример отчёта</a><a href="about.html">О проекте</a><a href="privacy.html">Конфиденциальность</a></nav></footer>
   <script src="scripts.min.js"></script>
 </body>
 </html>

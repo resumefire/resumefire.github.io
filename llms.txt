@@ -1,15 +1,21 @@
 # Resume Fire
 
-> Resume Fire is a Russian-language Telegram bot for Human + ATS analysis of PDF resumes. It provides a free preview before any full-report purchase and does not promise employment or invent candidate achievements.
+> Русскоязычный Telegram-бот для Human + ATS-анализа PDF-резюме. Бесплатное превью доступно до покупки полного отчёта. Сервис не обещает трудоустройство и не придумывает достижения кандидата.
 
-Use the pages below for product facts and methodology. The primary user action is [open Resume Fire Bot in Telegram](https://t.me/ResumeFireBot?start=github-repo).
+Используйте страницы ниже для проверки фактов о продукте, методологии, авторе и обработке данных. Основное действие: [открыть Resume Fire Bot в Telegram](https://t.me/ResumeFireBot?start=github-repo).
 
-## Product and methodology
+## Продукт и методология
 
-- [Resume Fire overview](https://resumefire.github.io/index.html.md): Product purpose, free preview, Human and ATS checks, FAQ, and Telegram bot link.
-- [Why resumes should not receive one score](https://resumefire.github.io/human-ats-razbor-rezyume.html.md): Human + ATS methodology, recommendation priorities, free preview, and assessment boundaries.
-- [Resume checklist before applying](https://resumefire.github.io/proverit-rezyume-pered-otklikom.html.md): Practical checks for role positioning, experience, PDF parsing, skills, and prioritisation.
+- [Обзор Resume Fire](https://resumefire.github.io/index.html.md): назначение продукта, бесплатное превью, Human- и ATS-проверки, FAQ и ссылка на Telegram-бот.
+- [Почему резюме нельзя оценивать одним баллом](https://resumefire.github.io/human-ats-razbor-rezyume.html.md): методология, приоритеты рекомендаций и границы оценки.
+- [Чек-лист перед откликом](https://resumefire.github.io/proverit-rezyume-pered-otklikom.html.md): практическая проверка роли, опыта, PDF, навыков и приоритетов.
+- [Пример полного отчёта](https://resumefire.github.io/primer-otcheta-po-rezyume.html.md): обезличенный Human + ATS-разбор backend-резюме с конкретными находками и правками.
+
+## Доверие и данные
+
+- [О проекте](https://resumefire.github.io/about.html.md): автор, принципы, устройство анализа и ограничения сервиса.
+- [Конфиденциальность](https://resumefire.github.io/privacy.html.md): категории данных, цели, обработка PDF, хранение и порядок обращений.
 
 ## Optional
 
-- [XML sitemap](https://resumefire.github.io/sitemap.xml): Complete list of indexable HTML pages.
+- [XML sitemap](https://resumefire.github.io/sitemap.xml): полный список индексируемых HTML-страниц.

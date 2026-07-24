@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fffaf5">
+  <meta name="description" content="Кто создал Resume Fire, как устроен Human + ATS-анализ резюме и на каких принципах строятся рекомендации сервиса.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <link rel="canonical" href="https://resumefire.github.io/about.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Resume Fire">
+  <meta property="og:title" content="О проекте Resume Fire">
+  <meta property="og:description" content="Автор, принципы и границы Human + ATS-анализа резюме.">
+  <meta property="og:url" content="https://resumefire.github.io/about.html">
+  <title>О проекте Resume Fire: автор, принципы и метод анализа</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.min.css">
+  <link rel="stylesheet" href="seo-cluster.min.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"AboutPage","@id":"https://resumefire.github.io/about.html#page","url":"https://resumefire.github.io/about.html","name":"О проекте Resume Fire","inLanguage":"ru-RU","dateModified":"2026-07-25","about":{"@id":"https://resumefire.github.io/#app"}},
+    {"@type":"Person","@id":"https://resumefire.github.io/about.html#author","name":"Богдан Топоров","url":"https://obgov.github.io/","sameAs":["https://github.com/obgov","https://t.me/iambogdan"]},
+    {"@type":"SoftwareApplication","@id":"https://resumefire.github.io/#app","name":"Resume Fire Bot","applicationCategory":"BusinessApplication","operatingSystem":"Telegram","creator":{"@id":"https://resumefire.github.io/about.html#author"},"url":"https://t.me/ResumeFireBot?start=github-repo"}
+  ]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#content">К содержанию</a>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="На главную Resume Fire"><span class="brand-flame">R</span><span>resume<span>fire</span></span></a>
+    <a class="nav-cta" href="https://t.me/ResumeFireBot?start=github-repo" target="_blank" rel="noopener">Проверить резюме</a>
+  </header>
+
+  <main id="content" class="article-layout trust-page">
+    <article class="article">
+      <p class="kicker">О проекте</p>
+      <h1>Проверка должна объяснять выводы.</h1>
+      <p class="article-lead">Resume Fire создан, чтобы превращать общий балл в понятный порядок правок с опорой на текст конкретного резюме.</p>
+
+      <section class="author-panel" aria-labelledby="author-title">
+        <div class="author-mark" aria-hidden="true">БТ</div>
+        <div>
+          <p class="author-label">Автор и разработчик</p>
+          <h2 id="author-title">Богдан Топоров</h2>
+          <p>Backend-разработчик и Tech Lead. Проект вырос из практической работы с резюме, автоматической обработкой PDF и системами на базе языковых моделей.</p>
+          <div class="inline-links">
+            <a href="https://obgov.github.io/" target="_blank" rel="noopener">Профессиональный профиль</a>
+            <a href="https://github.com/obgov" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://t.me/iambogdan" target="_blank" rel="noopener">Связаться в Telegram</a>
+          </div>
+        </div>
+      </section>
+
+      <h2>Зачем создан Resume Fire</h2>
+      <p>Большинство автоматических проверок сводят резюме к числу или списку ключевых слов. Такой результат трудно применить: непонятно, какие замечания действительно мешают откликам, а какие можно отложить.</p>
+      <p>Resume Fire разделяет два вопроса. Human-анализ проверяет, насколько быстро человек понимает специализацию, опыт и ценность кандидата. ATS-анализ проверяет извлечение текста, структуру, даты, навыки и другие машинно читаемые элементы PDF.</p>
+
+      <div class="principle-list" aria-label="Принципы Resume Fire">
+        <section>
+          <span>Факты</span>
+          <h3>Выводы привязаны к резюме</h3>
+          <p>Рекомендации опираются на найденные фрагменты документа. Неподтверждённые технологии, роли и достижения отбрасываются.</p>
+        </section>
+        <section>
+          <span>Приоритеты</span>
+          <h3>Сначала критичное</h3>
+          <p>Проблемы группируются по влиянию: от ошибок позиционирования и чтения PDF до точечных улучшений формулировок.</p>
+        </section>
+        <section>
+          <span>Прозрачность</span>
+          <h3>Формат виден до оплаты</h3>
+          <p>Бесплатное превью позволяет оценить характер замечаний. Полный отчёт не является обязательной покупкой.</p>
+        </section>
+      </div>
+
+      <h2>Как устроена проверка</h2>
+      <ol class="method-steps">
+        <li><strong>PDF разбирается на текст и структуру.</strong><span>Проверяются страницы, порядок блоков и доступность содержимого для извлечения.</span></li>
+        <li><strong>Из документа собираются подтверждённые факты.</strong><span>Должности, периоды, навыки и результаты сохраняют связь с исходными фрагментами.</span></li>
+        <li><strong>Human- и ATS-части оцениваются отдельно.</strong><span>Сильный визуальный документ может плохо извлекаться, а технически простой PDF может быть слабым по содержанию.</span></li>
+        <li><strong>Рекомендации проходят проверку на опору в фактах.</strong><span>Сервис не должен придумывать достижения или обещать трудоустройство.</span></li>
+      </ol>
+
+      <h2>Границы сервиса</h2>
+      <p>Resume Fire не знает закрытые алгоритмы конкретного работодателя, не принимает решение о найме и не гарантирует приглашение на интервью. Итог зависит от вакансии, рынка, опыта кандидата и решений людей, участвующих в подборе.</p>
+
+      <nav class="page-paths" aria-label="Подробнее о проекте">
+        <a href="primer-otcheta-po-rezyume.html"><span>Посмотреть результат</span><strong>Обезличенный пример полного отчёта</strong></a>
+        <a href="privacy.html"><span>Обработка данных</span><strong>Как используются PDF и технические записи</strong></a>
+      </nav>
+
+      <aside class="article-callout">
+        <p>Проверьте формат на своём PDF.</p>
+        <a class="button button-primary" href="https://t.me/ResumeFireBot?start=github-repo" target="_blank" rel="noopener">Открыть бот</a>
+      </aside>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="index.html"><span class="brand-flame">R</span><span>resume<span>fire</span></span></a>
+    <p>Human + ATS-разбор PDF-резюме в Telegram.</p>
+    <nav class="footer-links" aria-label="Служебные страницы"><a href="primer-otcheta-po-rezyume.html">Пример отчёта</a><a href="about.html" aria-current="page">О проекте</a><a href="privacy.html">Конфиденциальность</a></nav>
+  </footer>
+</body>
+</html>
