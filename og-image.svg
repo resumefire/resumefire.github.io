@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Resume Fire — Human + ATS-анализ резюме</title>
+  <desc id="description">Фирменная карточка Resume Fire для социальных сетей.</desc>
+  <rect width="1200" height="630" fill="#fffaf5"/>
+  <rect x="52" y="48" width="1096" height="534" rx="28" fill="#f4f0e8"/>
+
+  <g transform="translate(102 92)">
+    <path d="M18 0 31 17 27 44H9L2 25Z" fill="#bf3514"/>
+    <text x="43" y="31" fill="#20211e" font-family="Arial, Helvetica, sans-serif"
+      font-size="30" font-weight="800" letter-spacing="-1.5">
+      Resume <tspan fill="#bf3514">Fire</tspan>
+    </text>
+  </g>
+
+  <text x="102" y="230" fill="#bf3514" font-family="Arial, Helvetica, sans-serif"
+    font-size="18" font-weight="800" letter-spacing="2">РАЗБОР PDF-РЕЗЮМЕ</text>
+  <text x="102" y="301" fill="#20211e" font-family="Arial, Helvetica, sans-serif"
+    font-size="65" font-weight="800" letter-spacing="-4">
+    <tspan x="102" dy="0">Человек видит смысл.</tspan>
+    <tspan x="102" dy="70">ATS видит структуру.</tspan>
+  </text>
+  <text x="102" y="475" fill="#65675f" font-family="Arial, Helvetica, sans-serif"
+    font-size="24">Human + ATS-анализ с понятными приоритетами</text>
+
+  <g transform="translate(795 112) rotate(-5 142 197)">
+    <rect x="18" y="22" width="274" height="394" fill="#e7e1d5"/>
+    <rect width="274" height="394" fill="#ffffff"/>
+    <rect x="34" y="39" width="66" height="9" fill="#bf3514"/>
+    <rect x="34" y="78" width="170" height="21" fill="#20211e"/>
+    <rect x="34" y="112" width="206" height="8" fill="#dedfd7"/>
+    <rect x="34" y="132" width="174" height="8" fill="#dedfd7"/>
+    <rect x="34" y="178" width="206" height="8" fill="#dedfd7"/>
+    <rect x="34" y="198" width="192" height="8" fill="#dedfd7"/>
+    <rect x="34" y="218" width="146" height="8" fill="#dedfd7"/>
+    <rect x="34" y="264" width="206" height="8" fill="#dedfd7"/>
+    <rect x="34" y="284" width="180" height="8" fill="#dedfd7"/>
+    <circle cx="218" cy="342" r="31" fill="#dceaa9"/>
+    <path d="m204 342 10 10 20-24" fill="none" stroke="#20211e"
+      stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(700 151)">
+    <rect width="164" height="94" rx="14" fill="#20211e"/>
+    <text x="18" y="28" fill="#dceaa9" font-family="Arial, Helvetica, sans-serif"
+      font-size="13" font-weight="800">HUMAN</text>
+    <text x="18" y="60" fill="#ffffff" font-family="Arial, Helvetica, sans-serif"
+      font-size="24" font-weight="800">Смысл</text>
+    <text x="18" y="79" fill="#d1d2cc" font-family="Arial, Helvetica, sans-serif"
+      font-size="12">и убедительность</text>
+  </g>
+
+  <g transform="translate(907 431)">
+    <rect width="180" height="98" rx="14" fill="#bf3514"/>
+    <text x="18" y="29" fill="#fff3d9" font-family="Arial, Helvetica, sans-serif"
+      font-size="13" font-weight="800">ATS</text>
+    <text x="18" y="62" fill="#ffffff" font-family="Arial, Helvetica, sans-serif"
+      font-size="24" font-weight="800">Структура</text>
+    <text x="18" y="82" fill="#fff3d9" font-family="Arial, Helvetica, sans-serif"
+      font-size="12">и читаемость</text>
+  </g>
+
+  <rect x="742" y="486" width="12" height="12" fill="#bf3514"
+    transform="rotate(45 748 492)"/>
+  <rect x="1078" y="171" width="9" height="9" fill="#bf3514"
+    transform="rotate(45 1082.5 175.5)"/>
+</svg>
